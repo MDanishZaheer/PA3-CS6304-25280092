@@ -1,0 +1,74 @@
+experiment:
+  name: task_1_math_finetuning
+  seed: 6304
+
+paths:
+  data_root: Data/Task_1
+  results_root: Task_1/results
+  qualitative_questions: Data/Task_1/first_plot_questions.yaml
+
+model:
+  name: Qwen/Qwen3-0.6B
+  enable_thinking: false
+  max_sequence_length: 2048
+  training_dtype: float16
+  evaluation_dtype: float16
+  quantization: false
+
+dataset:
+  name: MetaMathQA
+  repo_id: meta-math/MetaMathQA
+  gsm8k_repo_id: openai/gsm8k
+  eligible_examples: 40000
+  preserve_source_order: true
+  exclude_gsm8k_test_matches: true
+  truncate_answers: false
+
+evaluation_datasets:
+  - task: hellaswag
+    repo_id: Rowan/hellaswag
+    split: validation
+    expected_rows: 10042
+  - task: boolq
+    repo_id: aps/super_glue
+    subset: boolq
+    split: validation
+    expected_rows: 3270
+  - task: arc_easy
+    repo_id: allenai/ai2_arc
+    subset: ARC-Easy
+    split: test
+    expected_rows: 2376
+
+training:
+  epochs: 1
+  microbatch_size: 2
+  gradient_accumulation_steps: 16
+  effective_batch_size: 32
+  optimizer_updates: 1250
+  optimizer: adamw
+  adam_betas: [0.9, 0.999]
+  adam_epsilon: 1.0e-8
+  weight_decay: 0.01
+  weight_decay_exclude_bias_and_ndim_lt_2: true
+  scheduler: cosine
+  warmup_updates: 38
+  max_gradient_norm: 1.0
+  gradient_checkpointing: true
+  automatic_mixed_precision: true
+  dynamic_gradient_scaling: true
+  checkpoint_updates: [312, 625, 937, 1250]
+
+evaluation:
+  baseline_update: 0
+  full_ft_midpoint_update: 625
+  final_update: 1250
+  gsm8k_task: gsm8k_cot
+  gsm8k_max_new_tokens: 1024
+  qualitative_max_new_tokens: 512
+  qualitative_prompt_count: 24
+  diagnostic_layers: [0, 13, 27]
+  activation_probe_examples_per_dataset: 32
+  batch_size: 1
+  bootstrap_seed: 6304
+

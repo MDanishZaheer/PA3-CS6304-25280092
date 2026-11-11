@@ -1,0 +1,137 @@
+dataset_name,split,sample_id,order,count,correct,selected_answer,selected_rollout_id,leader,unique_leader,agreement,rwc_agrees,rwc_margin,token_cost,oracle,policy,correct_fixed32
+math,evaluation,test:2460,7,8,False,58,2,answer_1,True,0.5,True,0.035714285714285754,6727,True,quality,True
+math,evaluation,test:2732,7,4,False,2222.2,28,answer_11,True,0.5,True,0.6666666666666667,2840,False,quality,True
+math,evaluation,test:1903,1,8,False,75,15,answer_2,True,0.5,True,0.39285714285714285,4049,True,quality,True
+math,evaluation,test:1903,3,4,False,90,5,answer_8,True,0.5,True,0.16666666666666669,2408,True,quality,True
+math,evaluation,test:1903,8,4,False,75,18,answer_2,True,0.5,True,0.0,1997,True,quality,True
+math,evaluation,test:3409,0,4,False,0,4,answer_1,True,0.5,True,0.0,4011,True,quality,True
+math,evaluation,test:3409,2,4,False,0,20,answer_1,True,0.75,True,0.0,3178,True,quality,True
+math,evaluation,test:2469,5,4,False,24,7,answer_3,True,0.5,True,0.6666666666666667,4796,True,quality,True
+math,evaluation,test:2469,6,8,False,24,14,answer_3,True,0.5,True,0.3571428571428572,9507,True,quality,True
+math,evaluation,test:2469,7,4,False,24,13,answer_3,True,0.75,True,1.0,5980,False,quality,True
+math,evaluation,test:2469,8,4,False,24,13,answer_3,True,0.5,True,0.16666666666666669,5350,True,quality,True
+math,evaluation,test:3391,4,4,False,5,24,answer_2,True,0.5,True,0.6666666666666667,1734,True,quality,True
+math,evaluation,test:2619,6,4,False,0,9,answer_1,True,0.5,True,0.6666666666666667,3706,False,quality,True
+math,evaluation,test:1803,0,4,False,\frac{4}{5},9,answer_0,True,0.5,True,0.0,1302,True,quality,True
+math,evaluation,test:1803,8,8,False,\frac{4}{5},9,answer_0,True,0.5,True,0.3214285714285714,2378,True,quality,True
+math,evaluation,test:1803,9,8,False,\frac{4}{5},0,answer_0,True,0.75,True,0.1428571428571428,2213,True,quality,True
+math,evaluation,test:4920,6,4,False,750,21,answer_3,True,0.5,True,0.16666666666666669,3872,True,quality,True
+math,evaluation,test:3613,4,4,False,28,6,answer_1,True,0.5,True,0.6666666666666667,1890,True,quality,True
+math,evaluation,test:3613,8,8,False,28,6,answer_1,True,0.625,True,0.6428571428571428,3148,True,quality,True
+math,evaluation,test:3210,4,4,False,10,12,answer_3,True,0.5,True,0.16666666666666669,1972,True,quality,True
+math,evaluation,test:3210,8,4,False,18,4,answer_13,True,0.5,True,0.3333333333333333,2553,False,quality,True
+math,evaluation,test:2494,0,4,False,3,31,answer_2,True,0.75,True,1.0,4885,False,quality,True
+math,evaluation,test:2494,1,4,False,3,10,answer_2,True,0.5,True,0.0,4208,True,quality,True
+math,evaluation,test:2494,6,4,False,3019,19,answer_9,True,0.5,True,0.3333333333333333,4878,True,quality,True
+math,evaluation,test:4397,9,16,False,225,11,answer_2,True,0.5,True,0.21666666666666673,9189,True,quality,True
+math,evaluation,test:375,3,4,False,0,9,answer_1,True,0.75,True,0.3333333333333333,3466,False,quality,True
+math,evaluation,test:375,6,4,False,0,24,answer_1,True,0.75,True,0.0,2012,True,quality,True
+math,evaluation,test:375,9,4,False,0,21,answer_1,True,0.5,True,0.16666666666666669,2743,True,quality,True
+math,evaluation,test:1634,9,4,False,210,21,answer_1,True,0.75,True,0.6666666666666667,2793,True,quality,True
+math,evaluation,test:1696,4,4,False,64,22,answer_1,True,0.5,True,0.6666666666666667,2906,True,quality,True
+math,evaluation,test:1696,6,4,False,64,5,answer_1,True,0.75,True,1.0,3349,False,quality,True
+math,evaluation,test:1696,7,4,False,64,5,answer_1,True,0.5,True,0.6666666666666667,3508,False,quality,True
+math,evaluation,test:944,0,4,False,"\left( \frac{8}{5}, \frac{29}{5} \right)",1,answer_0,True,0.5,True,0.16666666666666669,1429,True,quality,True
+math,evaluation,test:944,6,4,False,"\left( \frac{8}{5}, \frac{29}{5} \right)",21,answer_0,True,0.75,True,0.6666666666666667,1489,True,quality,True
+math,evaluation,test:2082,8,4,False,11,6,answer_8,True,0.5,True,0.6666666666666667,4005,False,quality,True
+math,evaluation,test:1810,7,4,False,\frac{235}{54},31,answer_9,True,0.5,True,0.6666666666666667,3663,False,quality,True
+math,evaluation,test:3241,1,4,False,4,25,answer_2,True,0.5,True,0.16666666666666669,2986,False,quality,True
+math,evaluation,test:3241,9,4,False,3,0,answer_0,True,0.5,True,0.3333333333333333,2448,False,quality,True
+math,evaluation,test:3686,8,8,False,0,19,answer_1,True,0.625,True,0.42857142857142855,3193,True,quality,True
+math,evaluation,test:4684,8,4,False,-\frac{1}{8},26,answer_1,True,0.75,True,1.0,3098,True,quality,True
+math,evaluation,test:2241,4,4,False,2^{\frac{36}{7}},6,answer_4,True,0.5,True,0.6666666666666667,4240,True,quality,True
+math,evaluation,test:2241,6,4,False,2048,24,answer_1,True,0.5,True,0.0,3702,True,quality,True
+math,evaluation,test:572,2,4,False,9,7,answer_2,True,0.5,True,0.16666666666666669,4169,True,quality,True
+math,evaluation,test:572,8,4,False,2.25,15,answer_1,True,0.5,True,0.16666666666666669,4493,True,quality,True
+math,evaluation,test:3017,2,4,False,\text{C},16,answer_0,True,0.5,True,0.3333333333333333,3178,True,quality,True
+math,evaluation,test:3017,3,4,False,\text{C},18,answer_0,True,0.5,True,0.16666666666666669,2798,True,quality,True
+math,evaluation,test:2265,4,4,False,"(10, 14, 51)",20,answer_1,True,0.75,True,0.0,2613,False,quality,True
+math,evaluation,test:2265,5,4,False,"(10, 14, 51)",25,answer_1,True,0.5,True,0.6666666666666667,3386,True,quality,True
+math,evaluation,test:2265,6,8,False,"(10, 14, 51)",27,answer_1,True,0.5,True,0.5,8500,True,quality,True
+math,evaluation,test:2265,7,4,False,"(10, 14, 51)",24,answer_1,True,0.5,True,0.6666666666666667,4418,False,quality,True
+math,evaluation,test:2318,1,4,False,3,12,answer_3,True,0.5,True,0.6666666666666667,3851,False,quality,True
+math,evaluation,test:1157,0,4,False,15,19,answer_1,True,0.5,True,0.0,3388,False,quality,True
+math,evaluation,test:1157,2,4,False,15,1,answer_1,True,0.5,True,0.6666666666666667,3378,False,quality,True
+math,evaluation,test:2731,0,4,False,8,7,answer_8,True,0.5,True,0.16666666666666669,4125,True,quality,True
+math,evaluation,test:2731,8,4,False,9,21,answer_3,True,0.5,True,0.0,4388,True,quality,True
+math,evaluation,test:3388,5,4,False,140,26,answer_6,True,0.5,True,0.0,2371,False,quality,True
+math,evaluation,test:2794,1,4,False,1,15,answer_1,True,0.75,True,0.3333333333333333,2460,True,quality,True
+math,evaluation,test:2639,0,4,False,26,28,answer_2,True,0.5,True,0.3333333333333333,4497,False,quality,True
+math,evaluation,test:2639,1,4,False,26,4,answer_2,True,0.5,True,0.16666666666666669,4554,True,quality,True
+math,evaluation,test:2639,4,4,False,26,27,answer_2,True,0.5,True,0.6666666666666667,4330,False,quality,True
+math,evaluation,test:2639,7,4,False,26,4,answer_2,True,0.5,True,0.6666666666666667,4482,True,quality,True
+math,evaluation,test:2639,9,8,False,26,28,answer_2,True,0.5,True,0.21428571428571425,8968,True,quality,True
+math,evaluation,test:3554,3,4,False,17,31,answer_2,True,0.5,True,0.6666666666666667,3543,True,quality,True
+math,evaluation,test:3554,7,4,False,17,10,answer_2,True,0.75,True,0.3333333333333333,2657,True,quality,True
+math,evaluation,test:208,1,4,False,18,31,answer_0,True,0.75,True,0.3333333333333333,2507,False,quality,True
+math,evaluation,test:616,8,4,False,\text{No real solutions},14,answer_3,True,0.5,True,0.16666666666666669,2928,True,quality,True
+math,evaluation,test:2725,3,4,False,3,7,answer_3,True,0.75,True,0.0,2125,False,quality,True
+math,evaluation,test:2725,5,4,False,0,23,answer_5,True,0.5,True,0.6666666666666667,1614,True,quality,True
+math,evaluation,test:734,3,4,False,695,11,answer_3,True,0.5,True,0.6666666666666667,2724,True,quality,True
+math,evaluation,test:277,3,4,False,22,7,answer_1,True,0.5,True,0.3333333333333333,4509,True,quality,True
+math,evaluation,test:277,9,4,False,22,13,answer_1,True,0.5,True,0.0,4267,True,quality,True
+math,evaluation,test:3164,8,4,False,23,6,answer_0,True,0.5,True,0.0,5018,True,quality,True
+math,evaluation,test:2563,0,8,False,"[-4, 0]",16,answer_0,True,0.5,True,0.14285714285714285,6208,True,quality,True
+math,evaluation,test:2563,2,4,False,"[-4, 0]",18,answer_0,True,0.75,True,1.0,3131,True,quality,True
+math,evaluation,test:2563,5,4,False,"[-4, 0]",11,answer_0,True,0.5,True,0.6666666666666667,2932,True,quality,True
+math,evaluation,test:2563,7,4,False,"[-4, 0]",0,answer_0,True,0.75,True,0.3333333333333333,3288,True,quality,True
+math,evaluation,test:2563,8,8,False,"[-4, 0]",30,answer_0,True,0.5,True,0.17857142857142855,6016,True,quality,True
+math,evaluation,test:4281,9,8,False,21,10,answer_0,True,0.75,True,0.6428571428571428,4151,True,quality,True
+math,evaluation,test:2657,0,4,False,1 \text{ and } 2,31,answer_18,True,0.5,True,0.16666666666666669,3452,True,quality,True
+math,evaluation,test:3754,2,4,False,432,15,answer_2,True,0.5,True,0.6666666666666667,3599,False,quality,True
+math,evaluation,test:4873,2,4,False,\frac{7\pi}{12},23,answer_2,True,0.5,True,0.6666666666666667,2668,True,quality,True
+math,evaluation,test:2650,8,4,False,\frac{\pi}{\sqrt{3}},6,answer_0,True,0.5,True,0.0,5646,True,quality,True
+math,evaluation,test:1994,5,4,False,88,13,answer_3,True,0.5,True,0.16666666666666669,3115,False,quality,True
+math,evaluation,test:3269,1,4,False,1342,0,answer_0,True,0.5,True,0.6666666666666667,3060,False,quality,True
+math,evaluation,test:3269,6,4,False,1342,17,answer_0,True,0.75,True,1.0,3002,True,quality,True
+math,evaluation,test:2570,1,4,False,6,26,answer_1,True,0.5,True,0.6666666666666667,2867,False,quality,True
+math,evaluation,test:768,1,4,False,40 - 8\sqrt{3},31,answer_4,True,0.75,True,1.0,3773,False,quality,True
+math,evaluation,test:23,7,4,False,7.97,11,answer_0,True,0.5,True,0.3333333333333333,1633,True,quality,True
+math,evaluation,test:1442,6,4,False,\frac{1}{36},11,answer_1,True,0.5,True,0.6666666666666667,1572,True,quality,True
+math,evaluation,test:3538,3,4,False,403,31,answer_0,True,0.75,True,1.0,1964,True,quality,True
+math,evaluation,test:3976,4,4,False,145^\circ,0,answer_0,True,0.5,True,0.0,1658,False,quality,True
+math,evaluation,test:2148,8,4,False,9,19,answer_0,True,0.75,True,0.0,4556,True,quality,True
+math,evaluation,test:2148,9,8,False,9,19,answer_0,True,0.5,True,0.17857142857142855,10297,True,quality,True
+math,evaluation,test:2031,2,4,False,68,16,answer_3,True,0.5,True,0.0,2027,True,quality,True
+math,evaluation,test:2031,4,4,False,68,16,answer_3,True,0.5,True,0.3333333333333333,2405,True,quality,True
+math,evaluation,test:4153,0,4,False,25,26,answer_0,True,0.75,True,0.0,4040,True,quality,True
+math,evaluation,test:4153,6,4,False,25,18,answer_0,True,0.75,True,0.6666666666666667,3063,True,quality,True
+math,evaluation,test:4153,7,4,False,25,26,answer_0,True,0.5,True,0.0,2563,False,quality,True
+math,evaluation,test:1228,7,4,False,0,4,answer_2,True,0.75,True,0.0,2220,True,quality,True
+math,evaluation,test:3110,1,4,False,2,8,answer_3,True,0.5,True,0.0,3450,True,quality,True
+math,evaluation,test:3110,6,4,False,3,16,answer_2,True,0.5,True,0.6666666666666667,4073,True,quality,True
+math,evaluation,test:3157,1,8,False,1,29,answer_0,True,0.5,True,0.0,5131,True,quality,True
+math,evaluation,test:3157,2,8,False,1,9,answer_0,True,0.5,True,0.10714285714285715,6005,True,quality,True
+math,evaluation,test:3157,3,4,False,0,11,answer_2,True,0.5,True,0.3333333333333333,2469,True,quality,True
+math,evaluation,test:3157,6,4,False,0,24,answer_2,True,0.5,True,0.6666666666666667,2337,True,quality,True
+math,evaluation,test:3177,1,4,False,7,14,answer_0,True,0.75,True,0.3333333333333333,4129,False,quality,True
+math,evaluation,test:3177,7,4,False,7,31,answer_0,True,0.5,True,0.3333333333333333,4199,False,quality,True
+math,evaluation,test:1663,0,4,False,8,1,answer_1,True,0.5,True,0.16666666666666669,3005,True,quality,True
+math,evaluation,test:1663,2,8,False,8,28,answer_1,True,0.5,True,0.10714285714285715,6346,True,quality,True
+math,evaluation,test:1663,4,4,False,8,28,answer_1,True,0.5,True,0.16666666666666669,2834,False,quality,True
+math,evaluation,test:3113,4,4,False,15,3,answer_0,True,0.5,True,0.6666666666666667,4906,True,quality,True
+math,evaluation,test:3113,6,4,False,15,3,answer_0,True,0.5,True,0.6666666666666667,2286,True,quality,True
+math,evaluation,test:3113,7,8,False,15,19,answer_0,True,0.5,True,0.2142857142857143,7199,True,quality,True
+math,evaluation,test:3113,9,8,False,15,13,answer_0,True,0.5,True,0.28571428571428575,7549,True,quality,True
+math,evaluation,test:2325,3,4,False,\frac{1 + \sqrt{5}}{2},12,answer_1,True,0.5,True,0.0,3875,True,quality,True
+math,evaluation,test:2325,5,4,False,\frac{1 + \sqrt{5}}{2},19,answer_1,True,0.75,True,0.6666666666666667,4111,False,quality,True
+math,evaluation,test:2325,8,4,False,\frac{1 + \sqrt{5}}{2},12,answer_1,True,1.0,True,1.0,4268,False,quality,True
+math,evaluation,test:3944,0,4,False,22,20,answer_1,True,0.5,True,0.3333333333333333,3841,False,quality,True
+math,evaluation,test:3007,1,4,False,-6,9,answer_0,True,0.75,True,0.3333333333333333,3134,True,quality,True
+math,evaluation,test:3007,5,4,False,-6,30,answer_0,True,0.5,True,0.16666666666666669,2876,False,quality,True
+math,evaluation,test:3007,6,4,False,-6,31,answer_0,True,1.0,True,1.0,2743,False,quality,True
+math,evaluation,test:3106,0,8,False,86,1,answer_0,True,0.5,True,0.07142857142857145,7066,True,quality,True
+math,evaluation,test:3106,1,4,False,86,28,answer_0,True,0.75,True,1.0,3499,True,quality,True
+math,evaluation,test:3106,3,4,False,86,13,answer_0,True,0.75,True,0.3333333333333333,3573,True,quality,True
+math,evaluation,test:3106,4,4,False,86,2,answer_0,True,0.75,True,1.0,3602,True,quality,True
+math,evaluation,test:3106,5,4,False,86,2,answer_0,True,0.75,True,0.0,3644,False,quality,True
+math,evaluation,test:863,2,4,False,51529,5,answer_0,True,0.75,True,0.3333333333333333,2549,False,quality,True
+math,evaluation,test:2083,0,4,False,\frac{5}{14},15,answer_4,True,0.5,True,0.3333333333333333,3988,False,quality,True
+math,evaluation,test:2083,6,4,False,\frac{17}{19},30,answer_3,True,0.5,True,0.6666666666666667,3885,False,quality,True
+math,evaluation,test:3070,3,4,False,2,11,answer_0,True,0.75,True,1.0,4137,False,quality,True
+math,evaluation,test:3070,9,4,False,1,29,answer_3,True,0.5,True,0.3333333333333333,4677,True,quality,True
+math,evaluation,test:2369,1,4,False,-1,21,answer_3,True,0.5,True,0.6666666666666667,4285,False,quality,True
+math,evaluation,test:1586,9,4,False,\frac{1}{10},14,answer_2,True,0.5,True,0.0,2420,True,quality,True
+math,evaluation,test:1257,3,4,False,\frac{2}{3},13,answer_1,True,0.5,True,0.0,2896,True,quality,True
+math,evaluation,test:1423,1,4,False,\frac{2}{3},24,answer_8,True,0.5,True,0.3333333333333333,3310,False,quality,True
+math,evaluation,test:1423,5,8,False,\frac{5}{6},12,answer_4,True,0.5,True,0.3571428571428572,6042,True,quality,True

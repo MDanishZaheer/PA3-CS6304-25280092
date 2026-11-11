@@ -1,0 +1,15 @@
+{
+  "feature_shape": [
+    2,
+    196,
+    768
+  ],
+  "feature_dtype": "torch.float16",
+  "connector_gradient_norm": 114.19754028320312,
+  "supervised_tokens": [
+    12,
+    17
+  ],
+  "original_qwen_trainable_parameters": 0,
+  "connector_scale": 0.05802774056792259
+}

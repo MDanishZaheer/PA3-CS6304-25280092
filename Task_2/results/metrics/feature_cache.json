@@ -1,0 +1,9 @@
+{
+  "images": 9253,
+  "remaining_chunks": 0,
+  "seconds_all_sessions": 930.757027927,
+  "peak_gpu_gib_all_sessions": 0.7313618659973145,
+  "encoder_batch": 128,
+  "feature_dtype": "float16",
+  "post_layernorm_applied_by_siglip_forward": true
+}

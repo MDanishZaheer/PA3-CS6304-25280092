@@ -1,0 +1,18 @@
+{
+  "update": 3000,
+  "caption_reference_loss": 2.221551511436701,
+  "suites": {
+    "grounding_dev": {
+      "correct_nll": 0.745423770409919,
+      "complementary_nll": 3.171856058463163,
+      "no_image_nll": 2.340588846243918,
+      "image_swap_penalty": 2.426432288053244
+    },
+    "natural_dev": {
+      "correct_nll": 1.6632254604119225,
+      "complementary_nll": 2.8554717682618502,
+      "no_image_nll": 4.5405412598047405,
+      "image_swap_penalty": 1.1922463078499277
+    }
+  }
+}

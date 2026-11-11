@@ -1,0 +1,10 @@
+dataset_name,policy,count,size,fraction
+mathvista,agreement,4,4533,0.566625
+mathvista,agreement,8,689,0.086125
+mathvista,agreement,16,135,0.016875
+mathvista,agreement,32,2643,0.330375
+mathvista,always32,32,8000,1.0
+mathvista,quality,4,4625,0.578125
+mathvista,quality,8,782,0.09775
+mathvista,quality,16,320,0.04
+mathvista,quality,32,2273,0.284125

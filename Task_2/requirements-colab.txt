@@ -1,0 +1,9 @@
+transformers==4.57.1
+huggingface_hub==0.36.2
+peft==0.17.1
+PyYAML==6.0.3
+requests
+Pillow
+pandas
+matplotlib
+psutil

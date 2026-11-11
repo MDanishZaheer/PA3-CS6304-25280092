@@ -1,0 +1,23 @@
+{
+  "method": "full_ft_l2sp",
+  "completed_updates": 1250,
+  "target_update": 1250,
+  "stopped_for_time": false,
+  "trainable_parameters": 596049920,
+  "training_seconds": 10716.292865461,
+  "peak_gpu_memory_bytes": 6887299072,
+  "checkpoint_sizes_bytes": {
+    "312": 7152932273,
+    "625": 7152932273,
+    "937": 7152932273,
+    "1250": 7152932273
+  },
+  "skipped_update_attempts": 0,
+  "reference_storage_bytes": 2384199680,
+  "optimizer_moment_bytes": 4768399360,
+  "cpu_master_bytes": 2384199680,
+  "reference_transfer_seconds": 702.25274085417,
+  "adapter_export_bytes": 0,
+  "adapter_export_seconds": 0.0,
+  "optimizer_state_device": "cpu"
+}

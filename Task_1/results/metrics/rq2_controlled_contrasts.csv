@@ -1,0 +1,4 @@
+contrast,reference,comparison,gsm8k_change_pp,retention_mean_change_pp,trainable_parameter_change
+L2-SP versus Full FT,full_ft,full_ft_l2sp,-0.83396512509476,-0.496054351150399,0
+LoRA rank 16 versus rank 4,lora_r4,lora_r16,0.6065200909780133,2.1356557209050053,7569408
+OPLoRA versus LoRA rank 16,lora_r16,oplora_r16,1.0614101592115177,-0.2637228554659643,0

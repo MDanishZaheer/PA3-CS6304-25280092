@@ -1,0 +1,7 @@
+{
+  "questions": 1000,
+  "rollouts": 32000,
+  "retained_tokens": 20742094,
+  "capped_rollouts": 523,
+  "null_extractions": 521
+}

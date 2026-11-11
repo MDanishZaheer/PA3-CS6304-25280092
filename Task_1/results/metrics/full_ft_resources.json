@@ -1,0 +1,23 @@
+{
+  "method": "full_ft",
+  "completed_updates": 1250,
+  "target_update": 1250,
+  "stopped_for_time": false,
+  "trainable_parameters": 596049920,
+  "training_seconds": 9756.779799067,
+  "peak_gpu_memory_bytes": 6889106432,
+  "checkpoint_sizes_bytes": {
+    "312": 7152932337,
+    "625": 7152932337,
+    "937": 7152932337,
+    "1250": 7152932337
+  },
+  "skipped_update_attempts": 0,
+  "reference_storage_bytes": 2384199680,
+  "optimizer_moment_bytes": 4768399360,
+  "cpu_master_bytes": 2384199680,
+  "reference_transfer_seconds": 0.0,
+  "adapter_export_bytes": 0,
+  "adapter_export_seconds": 0.0,
+  "optimizer_state_device": "cpu"
+}

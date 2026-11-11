@@ -1,0 +1,8 @@
+method:
+  name: lora_r16
+  peak_learning_rate: 2.0e-4
+  rank: 16
+  alpha: 32
+  dropout: 0.05
+  targets: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+

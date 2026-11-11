@@ -1,0 +1,4 @@
+method,reference,difference_pp,ci_low_pp,ci_high_pp
+parallel,single,-14.000000000000002,-26.0,-2.0
+refinement,single,-16.0,-30.0,-2.0
+refinement,parallel,-2.0,-10.0,6.0

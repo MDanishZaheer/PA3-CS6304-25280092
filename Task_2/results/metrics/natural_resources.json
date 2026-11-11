@@ -1,0 +1,15 @@
+{
+  "stage": "natural",
+  "end_update": 4500,
+  "seconds_all_sessions": 1049.8817637459997,
+  "peak_gpu_gib_all_sessions": 5.299790859222412,
+  "stage_export_mib": 24.58820915222168,
+  "trainable_parameters": 6424576,
+  "mixture_draw_counts": {
+    "presence": 600,
+    "counting": 625,
+    "caption": 593,
+    "natural": 4182
+  },
+  "skipped_attempts_cumulative": 12
+}

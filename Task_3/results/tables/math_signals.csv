@@ -1,0 +1,4 @@
+dataset_name,score,correctness_correlation,length_correlation,top_quartile_accuracy,bottom_quartile_accuracy,top_bottom_difference
+math,certainty,0.19877540520066986,-0.16109595817293734,0.69015625,0.57015625,0.12
+math,length,-0.07641801956971726,1.0,0.59796875,0.6428125,-0.04484375
+math,logp,0.13557961148579098,0.22450990220048073,0.6721875,0.593125,0.0790625

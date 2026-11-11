@@ -1,0 +1,29 @@
+{
+  "method": "oplora_r16",
+  "completed_updates": 1250,
+  "target_update": 1250,
+  "stopped_for_time": false,
+  "trainable_parameters": 10092544,
+  "training_seconds": 18287.786250905003,
+  "peak_gpu_memory_bytes": 2101054976,
+  "checkpoint_sizes_bytes": {
+    "312": 121591629,
+    "625": 121591629,
+    "937": 121591629,
+    "1250": 121591629
+  },
+  "skipped_update_attempts": 0,
+  "reference_storage_bytes": 0,
+  "optimizer_moment_bytes": 80740352,
+  "cpu_master_bytes": 0,
+  "reference_transfer_seconds": 0.0,
+  "adapter_export_bytes": 40499961,
+  "adapter_export_seconds": 0.21281215899944073,
+  "optimizer_state_device": "cuda",
+  "target_count": 196,
+  "basis_storage_bytes": 322961408,
+  "preprocessing_seconds": 63.49016521300018,
+  "initial_factor_sha256": "3961cc893567bd527f65893397bb7f9c230f667fd9bc0a9262896268ea196efa",
+  "max_left_residual": 4.1162817865370016e-07,
+  "max_right_residual": 1.0228967539660516e-06
+}

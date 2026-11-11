@@ -1,0 +1,7 @@
+{
+  "rule": "text_embedding_rms / initial_connector_rms",
+  "training_images": 256,
+  "text_rms": 0.029202857986092567,
+  "visual_rms_before": 0.5032568573951721,
+  "scale": 0.05802774056792259
+}

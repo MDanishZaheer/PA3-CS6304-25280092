@@ -1,0 +1,52 @@
+experiment:
+  name: task_2_visual_grounding
+  seed: 6304
+paths:
+  data_root: Data/Task_2
+  results_root: Task_2/results
+models:
+  vision: google/siglip-base-patch16-224
+  language: Qwen/Qwen3-0.6B
+  vision_tokens: 196
+  vision_width: 768
+  language_width: 1024
+  enable_thinking: false
+  quantization: false
+data:
+  caption_train_images: 6000
+  captions_per_train_image: 3
+  caption_dev_images: 96
+  grounding_dev_pairs: 24
+  grounding_test_pairs: 64
+  natural_train_pairs: {yes/no: 640, number: 256, other: 640}
+  natural_dev_pairs: {yes/no: 12, number: 8, other: 12}
+  natural_test_pairs: {yes/no: 36, number: 24, other: 36}
+  minimum_consensus: 8
+training:
+  microbatch_size: 8
+  accumulation_steps: 2
+  effective_batch_size: 16
+  total_updates: 4500
+  checkpoint_interval: 250
+  optimizer: adamw
+  weight_decay: 0.01
+  gradient_clip: 1.0
+  warmup_fraction: 0.05
+  final_lr_fraction: 0.1
+  question_token_cap: 80
+  caption_token_cap: 64
+  answer_token_cap: 16
+  gradient_checkpointing: true
+  automatic_mixed_precision: true
+  dynamic_gradient_scaling: true
+  stages:
+    - {name: caption, updates: 2250, connector_lr: 0.001, adapter_lr: null}
+    - {name: instruction, updates: 1500, connector_lr: 0.0001, adapter_lr: 0.00002}
+    - {name: natural, updates: 750, connector_lr: 0.00005, adapter_lr: 0.00001}
+  lora: {rank: 16, alpha: 32, dropout: 0.05, targets: [q_proj, k_proj, v_proj, o_proj]}
+evaluation:
+  development_interval: 500
+  generation_batch_size: 8
+  generation_max_new_tokens: 16
+  bootstrap_pairs: 4000
+  conditions: [correct, complementary, mismatched, no_image]

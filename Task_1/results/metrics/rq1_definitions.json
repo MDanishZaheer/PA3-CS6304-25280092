@@ -1,0 +1,5 @@
+{
+  "retention_mean": "Unweighted mean of HellaSwag acc_norm, BoolQ acc, ARC-Easy acc_norm",
+  "gsm8k_delta_95ci": "Paired document bootstrap, 2,000 resamples, seed 6304",
+  "scores": "Proportions in CSV; figure axes show percentages and percentage points"
+}

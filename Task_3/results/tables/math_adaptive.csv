@@ -1,0 +1,4 @@
+dataset_name,policy,correct,token_cost,count,questions
+math,agreement,0.723,6750.029875,7.938,800
+math,always32,0.733,21347.0175,32.0,800
+math,quality,0.727125,7622.621625,8.9165,800

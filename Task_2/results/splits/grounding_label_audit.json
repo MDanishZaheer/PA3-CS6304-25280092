@@ -1,0 +1,116 @@
+[
+  {
+    "suite": "grounding_train",
+    "pair_id": "ground-train2014-presence-17-141376-482433",
+    "kind": "presence",
+    "examples": [
+      {
+        "image_key": "train2014:000000141376",
+        "question": "Does this image contain cat?",
+        "target": "yes",
+        "canonical": "yes"
+      },
+      {
+        "image_key": "train2014:000000482433",
+        "question": "Does this image contain cat?",
+        "target": "no",
+        "canonical": "no"
+      }
+    ]
+  },
+  {
+    "suite": "grounding_train",
+    "pair_id": "ground-train2014-counting-65-92032-24802",
+    "kind": "counting",
+    "examples": [
+      {
+        "image_key": "train2014:000000092032",
+        "question": "How many beds can you see?",
+        "target": "1",
+        "canonical": "1"
+      },
+      {
+        "image_key": "train2014:000000024802",
+        "question": "How many beds can you see?",
+        "target": "4",
+        "canonical": "4"
+      }
+    ]
+  },
+  {
+    "suite": "grounding_dev",
+    "pair_id": "ground-val2014-presence-24-480105-441974",
+    "kind": "presence",
+    "examples": [
+      {
+        "image_key": "val2014:000000480105",
+        "question": "Does this image contain zebra?",
+        "target": "yes",
+        "canonical": "yes"
+      },
+      {
+        "image_key": "val2014:000000441974",
+        "question": "Does this image contain zebra?",
+        "target": "no",
+        "canonical": "no"
+      }
+    ]
+  },
+  {
+    "suite": "grounding_dev",
+    "pair_id": "ground-val2014-counting-7-83602-543577",
+    "kind": "counting",
+    "examples": [
+      {
+        "image_key": "val2014:000000083602",
+        "question": "How many trains can you see?",
+        "target": "1",
+        "canonical": "1"
+      },
+      {
+        "image_key": "val2014:000000543577",
+        "question": "How many trains can you see?",
+        "target": "2",
+        "canonical": "2"
+      }
+    ]
+  },
+  {
+    "suite": "grounding_test",
+    "pair_id": "ground-val2014-presence-1-173830-484587",
+    "kind": "presence",
+    "examples": [
+      {
+        "image_key": "val2014:000000173830",
+        "question": "Does this image contain person?",
+        "target": "yes",
+        "canonical": "yes"
+      },
+      {
+        "image_key": "val2014:000000484587",
+        "question": "Does this image contain person?",
+        "target": "no",
+        "canonical": "no"
+      }
+    ]
+  },
+  {
+    "suite": "grounding_test",
+    "pair_id": "ground-val2014-counting-82-336171-265648",
+    "kind": "counting",
+    "examples": [
+      {
+        "image_key": "val2014:000000336171",
+        "question": "How many refrigerators can you see?",
+        "target": "1",
+        "canonical": "1"
+      },
+      {
+        "image_key": "val2014:000000265648",
+        "question": "How many refrigerators can you see?",
+        "target": "2",
+        "canonical": "2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "baseline_accuracy": 0.6425,
+  "minimum_accuracy": 0.6325,
+  "agreement": {
+    "family": "agreement",
+    "tau": 0.625,
+    "gamma": null,
+    "accuracy": 0.635,
+    "mean_tokens": 5285.1855
+  },
+  "quality": {
+    "family": "quality",
+    "tau": 0.5,
+    "gamma": 0.25,
+    "accuracy": 0.6325,
+    "mean_tokens": 4683.999
+  }
+}

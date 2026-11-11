@@ -1,0 +1,3 @@
+dataset_name,method,reference,difference_pp,ci_low_pp,ci_high_pp
+math,agreement,always32,-0.9999999999999999,-1.7249999999999999,-0.28687500000000044
+math,quality,always32,-0.5874999999999998,-1.1999999999999997,0.012500000000000122

@@ -1,0 +1,5 @@
+method:
+  name: full_ft_l2sp
+  peak_learning_rate: 2.0e-5
+  l2_sp_lambda: 1.0e-3
+

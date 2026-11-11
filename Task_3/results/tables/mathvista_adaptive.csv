@@ -1,0 +1,4 @@
+dataset_name,policy,correct,token_cost,count,questions
+mathvista,agreement,0.6195,4655.168125,13.7975,800
+mathvista,always32,0.617125,8897.7575,32.0,800
+mathvista,quality,0.61775,4203.773625,12.826500000000001,800

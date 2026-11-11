@@ -1,0 +1,21 @@
+{
+  "question_ids": [
+    "what_is_your_wish",
+    "enough_of_my_husband"
+  ],
+  "formats": [
+    "plain",
+    "json",
+    "template"
+  ],
+  "conditions": [
+    "baseline",
+    "full_ft_mid",
+    "full_ft",
+    "full_ft_l2sp",
+    "lora_r4",
+    "lora_r16",
+    "oplora_r16"
+  ],
+  "annotation_rows": 42
+}

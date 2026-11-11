@@ -1,0 +1,7 @@
+transformers==4.57.1
+datasets==4.8.5
+huggingface_hub==0.36.2
+PyYAML==6.0.3
+lm_eval[hf]==0.4.13
+pandas
+matplotlib

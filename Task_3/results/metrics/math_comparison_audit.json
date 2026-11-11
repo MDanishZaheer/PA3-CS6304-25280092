@@ -1,0 +1,19 @@
+{
+  "group_calls": 29595,
+  "group_retries": 0,
+  "group_timeouts": 36,
+  "group_errors": 2,
+  "group_parse_timeouts": 0,
+  "gold_calls": 4787,
+  "gold_retries": 0,
+  "gold_timeouts": 3,
+  "gold_errors": 0,
+  "gold_parse_timeouts": 0,
+  "group_timeout_questions": 1,
+  "gold_timeout_questions": 1,
+  "timeout_policy_seconds": {
+    "group_first": 15,
+    "gold_first": 120,
+    "retry": null
+  }
+}
